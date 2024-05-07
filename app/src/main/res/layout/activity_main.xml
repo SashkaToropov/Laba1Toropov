@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:background="#450BA1"
+        android:text="@string/greeting"
+        android:textColor="#f1edf7"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:src="@mipmap/newspaper" />
+    <Button
+        android:id="@+id/button_pressure"
+        android:onClick="openActivityPressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_calc_pressure" />
+    <Button
+        android:id="@+id/button_weight"
+        android:onClick="openActivityWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_ind_body" />
+    <Button
+        android:id="@+id/button_exit"
+        android:onClick="closeApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_exit" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Medical Calculator</string>
+    <string name="greeting">Main </string>
+    <string name="button_calc_pressure">calculate blood pressure</string>
+    <string name="button_ind_body">body index</string>
+    <string name="button_exit">exit</string>
+    <!--activity pressure-->
+    <string name="title_activity_pressure">PressureActivity</string>
+    <string name="title_input">Fill the fields to calculate blood pressure in
+normal</string>
+    <string name="text_input_age">Age, year</string>
+    <string name="text_input_weight">Weight, kg</string>
+    <string name="text_ps">Ps, mm Hg</string>
+    <string name="text_pd">Pd, mm Hg</string>
+    <string name="button_cal_bp">Calculate</string>
+    <string name="button_goback">Main Screen</string>
+    <!--activity weight-->
+    <string name="text_input_height">Height, cm</string>
+    <string name="radio_male">male</string>
+    <string name="radio_female">female</string>
+    <string name="normal_weight">your normal weight in kg</string>
+    <string-array name="gender">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+    <!--context_menu-->
+    <string name="contextmenuitem1">spinner</string>
+</resources>
